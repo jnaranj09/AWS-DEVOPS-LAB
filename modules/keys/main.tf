@@ -1,0 +1,4 @@
+resource "aws_key_pair" "my_key" {
+  key_name   = "my_key-${var.name_suffix}"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCTFZ1xzV+5IlKY0/PBL/Y2aNulvkfFBguRecsXsIYSSLF0oov+l2Q37zOoyDjCnyKL/xFuVJ59RhRVYXORRIv85FbdK76m+iTpJXE9qCEGP7voVqI/OwJ5UwotpX8pYyYnyCaZmzwYPLkQfrLJ+NrTrJoi33ub2+jRrmbMeG2rbeSxz7yjbmkZ7K3VmZ+mvA4q2bCLF72ifX8S+mUoO/yCxVHNuOJNY1UBsX1IjfeVmOsfZMgxRqizt9ep+uUcs+RWhHFsfgZt+YQ2m337GSc50D/lZSPsZi1i4fDMZKj800kGY+UadjAbINY8JYt0OGFlU2YDc7hy1Kr/apjvy61XuS+40XB0qg/K/bvMYFRkAM4nsHhWH1wLKpD4uqJd2Fn0i1WpWHnndTi/yT+SeWcXgYQfTYmaWocjvmYR4mHVFFedLuzVqAVGAzMJLOANDI/f4ke76LTXEnhpVl3hqY5Akb06Dsl/QzDfQxGtldtzMDtF9zq7bzV6Gni5ntnZfPmz+xW722byw4PV6CzFOWrwarA6O5bgJwMXVD6y4bPf/ht+zn0xgLXhyQ+34lO4pXp9MayR2yeudyeJOaN+B8H1HIpkHZL+dd7KsMSHeUyJo/q6mTzYmrNIATZjoa6WZEgzqG1Gk2GQIinPpgnjwaQ8hnH0D74HmNei34UQ+J5TwQ== jnaranjo@clicklease.com"
+}
